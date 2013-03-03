@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project name="lomarb/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <project name="Albinoman887/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
+  <project name="lomarb/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
+  <project name="lomarb/android_device_htc_pyramid" path="device/htc/pyramid" revision="cm-10.1" />
+  <project name="scverhagen/htc-kernel-doubleshot" path="kernel/htc/doubleshot" revision="ubuntu_touch" />
+  <project name="TeamDS/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
+  <project name="Albinoman887/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
+  <project name="Albinoman887/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
+</manifest>
