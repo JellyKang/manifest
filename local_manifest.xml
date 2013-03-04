@@ -4,6 +4,9 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="JellyKang/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
+  <project path="Buildbot" name="EmmanuelU/James_Buildbot">
+    <copyfile src="James" dest="James" />
+  </project>
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/android_vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
