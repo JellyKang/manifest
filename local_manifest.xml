@@ -13,7 +13,7 @@
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/android_vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
-  <project name="scverhagen/htc-kernel-doubleshot" path="kernel/htc/doubleshot" revision="ubuntu_touch" />
+  <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0" />
   <project name="Albinoman887/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
   <project name="Albinoman887/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
   <project name="Albinoman887/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
