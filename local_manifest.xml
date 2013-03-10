@@ -2,6 +2,8 @@
 <manifest>
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <project name="Albinoman887/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.1" />
   <project name="lomarb/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="lomarb/android_hardware_qcom_media" path="hardware/qcom/media" revision="master" />
