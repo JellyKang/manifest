@@ -1,25 +1,3 @@
-<!--
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <project name="JellyKang/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
-  <project path="buildbot" name="EmmanuelU/James_Buildbot" revision="master">
-    <copyfile src="James" dest="James" />
-  </project>
-  <project path="local_manifest" name="JellyKang/manifest" revision="master">
-    <copyfile src="local_manifest.xml" dest=".repo/local_manifests/manifest.xml" />
-  </project>
-  <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
-  <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
-  <project name="JellyKang/android_vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
-  <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
-  <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0" />
-  <project name="Evervolv/android_hardware_qcom_media" path="hardware/qcom/media" revision="jellybean" />
-  <project name="Evervolv/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean" />
-</manifest>
--->
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="CyanogenMod/android_frameworks_native" />
