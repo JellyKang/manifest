@@ -9,7 +9,7 @@
   <project name="scverhagen/htc-kernel-doubleshot" path="kernel/htc/doubleshot" revision="master" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="lomarb/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
-  <project name="lomarb/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
+  <project name="lomarb/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="master" />
   <project name="lomarb/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
   <project name="lomarb/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="master" />
   <project name="lomarb/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="master" />
