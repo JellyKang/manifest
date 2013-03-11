@@ -4,10 +4,10 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project name="Evervolv/android_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
-  <project name="Evervolv/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
+  <project name="Evervolv/android_frameworks_native" path="frameworks/native" revision="jellybean" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="Evervolv/android_hardware_qcom_media" path="hardware/qcom/media" revision="jellybean" />
-  <project name="Evervolv/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
+  <project name="Evervolv/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="jellybean" />
   <project name="scverhagen/htc-kernel-doubleshot" path="kernel/htc/doubleshot" revision="master" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="lomarb/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
