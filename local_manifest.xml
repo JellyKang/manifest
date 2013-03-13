@@ -41,7 +41,7 @@
   <project name="Albinoman887/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
   <project name="Albinoman887/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
-  <project name="JellyKang/android_vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
+  <project name="lomarb/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="master" />
   <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0" />
   <project name="Team-Hydra/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
   <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
