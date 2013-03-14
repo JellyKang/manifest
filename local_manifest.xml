@@ -6,19 +6,21 @@
   <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />
+  
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project name="JellyKang/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="JellyKang/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
+  <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
+  <project name="JellyKang/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
+  <project name="JellyKang/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="jellybean" />
+  
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
   <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="master" />
-  <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
-  <project name="JellyKang/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
-  <project name="JellyKang/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" revision="jellybean" />
   
   <project path="buildbot" name="EmmanuelU/James_Buildbot" revision="master">
     <copyfile src="James" dest="James" />
