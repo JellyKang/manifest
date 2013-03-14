@@ -17,6 +17,8 @@
   
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
   <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
+    <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-10.1" />
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
