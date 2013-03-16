@@ -21,8 +21,10 @@
   <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="cm-10.1" />
-    <remove-project name="CyanogenMod/android_packages_apps_Phone" />
+  <remove-project name="CyanogenMod/android_packages_apps_Phone" />
   <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="cm-10.1" />
+  <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
+  <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-10.1" />
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
