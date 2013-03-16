@@ -28,6 +28,8 @@
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="master" />
   
+  <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb2" /> 
+  
   <project path="buildbot" name="EmmanuelU/James_Buildbot" revision="master">
     <copyfile src="James" dest="James" />
   </project>
