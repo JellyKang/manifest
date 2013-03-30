@@ -35,7 +35,7 @@
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
-  <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="master" />
+  <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
   
   <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb2" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb" />
