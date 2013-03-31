@@ -10,16 +10,11 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project name="JellyKang/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <project name="JellyKang/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
-  <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
-  <project name="JellyKang/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
+  <project name="Team-Hydra/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" />
+  <project name="Team-Hydra/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
+  <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/audio-caf" name="JellyKang/android_hardware_qcom_audio-caf" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/gps" name="JellyKang/android_hardware_qcom_gps" revision="cm-10.1" />
-  <project path="hardware/qcom/gps-legacy" name="JellyKang/android_hardware_qcom_gps-legacy" />
-  <remove-project name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/msm7k" name="JellyKang/android_hardware_msm7k" revision="cm-10.1" />
   
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
   <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
