@@ -32,6 +32,9 @@
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
   
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <project name="JellyKang/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
+  
   <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb2" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb" />
   <project path="packages/wallpapers/BamPapers" name="JellyBam/packages_apps_jellybam_papers" revision="jellybam" />
