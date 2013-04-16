@@ -51,5 +51,5 @@
   
   <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="wild" />
   
-  <project name="https://bitbucket.org/codefirex/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="jb-devel" remote="" />
+  <project name="https://bitbucket.org/codefirex/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="jb-devel" remote="" />
 </manifest>
