@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="bit"
-           fetch="../git@bitbucket.org/" />
+           fetch="../https://bitbucket.org/" />
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="JellyKang/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
@@ -55,5 +55,5 @@
   
   <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="wild" />
   
-  <project name="codefirex/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="" remote="bit" />
+  <project name="codefirex/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="jb-devel" remote="bit" />
 </manifest>
