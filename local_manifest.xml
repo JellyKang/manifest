@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="bit"
-           fetch="git@bitbucket.org/" />
+           fetch="../git@bitbucket.org/" />
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="JellyKang/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
