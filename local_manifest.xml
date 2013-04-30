@@ -10,6 +10,13 @@
   <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project name="JellyKang/android_bionic" path="bionic" revision="cm-10.1" />
+
+  <remove-project name="CyanogenMod/android_build" />
+  <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project name="JellyKang/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.1" />
