@@ -62,7 +62,6 @@
   <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="wild" />
 </manifest>
 
-<!-- Begin external linaro repos -->
 <remove-project name="CyanogenMod/android_external_busybox" />
   <project name="TackleBerryCrash/android_external_busybox" path="external/busybox" revision="linaro" />
 
