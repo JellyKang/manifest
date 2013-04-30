@@ -9,11 +9,8 @@
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_bionic" />
-  <project name="JellyKang/android_bionic" path="bionic" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_libcore" />
-  <project name="JellyKang/android_libcore" path="libcore" revision="cm-10.1" />  
+  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />  
+  
 
   <remove-project name="CyanogenMod/android_build" />
   <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
@@ -64,3 +61,91 @@
   
   <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="wild" />
 </manifest>
+
+<!-- Begin external linaro repos -->
+<remove-project name="CyanogenMod/android_external_busybox" />
+  <project name="TackleBerryCrash/android_external_busybox" path="external/busybox" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_chromium" />
+	<project name="TackleBerryCrash/android_external_chromium" path="external/chromium" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_dnsmasq" />
+	<project name="TackleBerryCrash/android_external_dnsmasq" path="external/dnsmasq" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_e2fsprogs" />
+	<project name="TackleBerryCrash/android_external_e2fsprogs" path="external/e2fsprogs" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_lsof" />
+	<project name="TackleBerryCrash/android_external_lsof" path="external/lsof" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_openssh" />
+	<project name="TackleBerryCrash/android_external_openssh" path="external/openssh" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_openssl" />
+	<project name="TackleBerryCrash/android_external_openssl" path="external/openssl" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_openvpn" />
+	<project name="TackleBerryCrash/android_external_openvpn" path="external/openvpn" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_ping" />
+	<project name="TackleBerryCrash/android_external_ping" path="external/ping" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_ping6" />
+	<project name="TackleBerryCrash/android_external_ping6" path="external/ping6" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_skia" />
+	<project name="TackleBerryCrash/android_external_skia" path="external/skia" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_stlport" />
+	<project name="TackleBerryCrash/android_external_stlport" path="external/stlport" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_v8" />
+	<project name="TackleBerryCrash/android_external_v8" path="external/v8" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_webkit" />
+	<project name="TackleBerryCrash/android_external_webkit" path="external/webkit" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+	<project name="TackleBerryCrash/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_frameworks_ex" />
+	<project name="TackleBerryCrash/android_frameworks_ex" path="frameworks/ex" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_frameworks_rs" />
+	<project name="TackleBerryCrash/android_frameworks_rs" path="frameworks/rs" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_frameworks_wilhelm" />
+	<project name="TackleBerryCrash/android_frameworks_wilhelm" path="frameworks/wilhelm" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_system_security" />
+	<project name="TackleBerryCrash/android_system_security" path="system/security" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+	<project name="TackleBerryCrash/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_libcore" />
+	<project name="TackleBerryCrash/android_libcore" path="libcore" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+	<project name="TackleBerryCrash/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_oprofile" />
+	<project name="TackleBerryCrash/android_external_oprofile" path="external/oprofile" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_hardware_qcom_display" />
+	<project name="TackleBerryCrash/android_hardware_qcom_display" path="hardware/qcom/display" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_hardware_qcom_media" />
+	<project name="TackleBerryCrash/android_hardware_qcom_media" path="hardware/qcom/media" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_vendor_cm" />
+	<project name="TackleBerryCrash/android_vendor_cm" path="vendor/cm" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_frameworks_compile_libbcc" />
+	<project name="TackleBerryCrash/android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_external_clang" />
+	<project name="TackleBerryCrash/android_external_clang" path="external/clang" revision="linaro" />
+
+	<remove-project name="CyanogenMod/android_bionic" />
+	<project name="TackleBerryCrash/android_bionic" path="bionic" revision="linaro" />
