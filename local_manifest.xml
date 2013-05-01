@@ -10,7 +10,6 @@
   <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />  
-  
 
   <remove-project name="CyanogenMod/android_build" />
   <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
@@ -41,6 +40,7 @@
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
+  <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="cm-10.1" />
   
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="JellyKang/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
