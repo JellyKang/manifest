@@ -35,7 +35,6 @@
   <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
   <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-10.1" />
-  <project name="AOKP/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" revision="jb-mr1" />
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="cm-10.1" />
@@ -45,6 +44,8 @@
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="JellyKang/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
   
+  
+  <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" />
   
   <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb2" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb" />
