@@ -13,7 +13,7 @@
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang" />  
 
   <remove-project name="CyanogenMod/android_build" />
-  <project path="build" name="JellyKang/android_build" revision="kang" >
+  <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -28,13 +28,13 @@
   <project path="hardware/qcom/audio-caf" name="JellyKang/android_hardware_qcom_audio-caf" revision="cm-10.1" />
   
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
-  <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="kang" />
+  <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="kang" />
+  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms" />
-  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="kang" />
+  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Phone" />
-  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang" />
+  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
   <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-10.1" />
   
