@@ -13,7 +13,7 @@
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang" />  
 
   <remove-project name="CyanogenMod/android_build" />
-  <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
+  <project path="build" name="JellyKang/android_build" revision="kang" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
