@@ -10,7 +10,7 @@
   <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
   -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang" />  
+  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />  
 
   <remove-project name="CyanogenMod/android_build" />
   <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
