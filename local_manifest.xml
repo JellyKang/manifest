@@ -10,10 +10,10 @@
   <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
   -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang" />  
+  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />  
 
   <remove-project name="CyanogenMod/android_build" />
-  <project path="build" name="JellyKang/android_build" revision="kang" >
+  <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -30,7 +30,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
   <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="kang" />
+  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="cm-10.1" />
   <remove-project name="CyanogenMod/android_packages_apps_Phone" />
