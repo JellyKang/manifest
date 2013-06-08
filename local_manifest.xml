@@ -1,51 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="bit"
+  <remote name="bit"
            fetch="../https://bitbucket.org/" />
-<!-- DEPRECATED
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="JellyKang/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="cm-10.1" />
-  -->
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />  
 
-  <remove-project name="CyanogenMod/android_build" />
-  <project path="build" name="JellyKang/android_build" revision="cm-10.1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <remove-project name="SlimRoms/frameworks_base" />
+  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang" />  
   
-  
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="SlimRoms/hardware_libhardware" />
   <project name="JellyKang/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="SlimRoms/hardware_qcom_media" />
   <project name="JellyKang/android_hardware_qcom_media" path="hardware/qcom/media" revision="jellybean" />
   <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
   <project name="JellyKang/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/audio-caf" name="JellyKang/android_hardware_qcom_audio-caf" revision="cm-10.1" />
   
-  <remove-project name="CyanogenMod/android_packages_apps_Camera" />
-  <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
-  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_packages_apps_Phone" />
-  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
-  <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-10.1" />
+  <remove-project name="SlimRoms/packages_apps_Camera" />
+  <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="kang" />
+  <remove-project name="SlimRoms/packages_apps_Settings" />
+  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="kang" />
+  <remove-project name="SlimRoms/android_packages_apps_Mms" />
+  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="kang" />
+  <remove-project name="SlimRoms/android_packages_apps_Phone" />
+  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang" />
+  <remove-project name="SlimRoms/android_packages_apps_Gallery2" />
+  <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="kang" />
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="kang" />
   <project name="SlimRoms/vendor_slim" path="vendor/slim" revision="jb4.2" />
-  
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project name="JellyKang/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
   
   
   <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" />
