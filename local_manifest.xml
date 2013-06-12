@@ -44,7 +44,7 @@
     <copyfile src="James" dest="James" />
   </project>
   
-  <project path="local_manifest" name="JellyKang/manifest" revision="master">
+  <project path="local_manifest" name="JellyKang/manifest" revision="slim">
     <copyfile src="local_manifest.xml" dest=".repo/local_manifests/manifest.xml" />
   </project>
   
