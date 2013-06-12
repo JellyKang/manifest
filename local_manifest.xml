@@ -44,11 +44,11 @@
     <copyfile src="James" dest="James" />
   </project>
   
-  <project path="local_manifest" name="JellyKang/manifest" revision="slim">
+  <project path="local_manifest" name="JellyKang/manifest" revision="slim"remote="github" >
     <copyfile src="local_manifest.xml" dest=".repo/local_manifests/manifest.xml" />
   </project>
   
-  <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="wild" />
+  <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="wild" remote="github" />
 
 
 </manifest>
