@@ -4,8 +4,6 @@
   <remote name="bit"
            fetch="../https://bitbucket.org/" />
 
- <default remote="github" />
-
   <remove-project name="SlimRoms/frameworks_base" />
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang" />  
   
