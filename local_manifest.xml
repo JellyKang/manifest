@@ -30,7 +30,6 @@
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" />
   <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="kang" />
-  <project name="SlimRoms/vendor_slim" path="vendor/slim" revision="jb4.2" />
   
   
   <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" />
