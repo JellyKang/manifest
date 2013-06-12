@@ -21,7 +21,7 @@
   <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="kang" />
   <remove-project name="SlimRoms/packages_apps_Mms" />
   <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="kang" />
-  <remove-project name="SlimRoms/_packages_apps_Phone" />
+  <remove-project name="SlimRoms/packages_apps_Phone" />
   <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang" />
   <remove-project name="SlimRoms/packages_apps_Gallery2" />
   <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="kang" />
