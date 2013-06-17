@@ -25,6 +25,9 @@
   <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Gallery2" />
   <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="kang" remote="github" />
+   <remove-project name="SlimRoms/packages_apps_Browser" />
+  <project name="JellyKang/android_packages_apps_Browser" path="packages/apps/Browser" revision="kang" remote="github" />
+  
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" remote="github" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang" remote="github" />
@@ -33,6 +36,8 @@
   
   
   <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="cm-10.1" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-10.1" remote="github" />
   
   <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb2" remote="github" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb" remote="github" />
