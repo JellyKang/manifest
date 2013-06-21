@@ -25,8 +25,10 @@
   <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Gallery2" />
   <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="kang" remote="github" />
-   <remove-project name="SlimRoms/packages_apps_Browser" />
+  <remove-project name="SlimRoms/packages_apps_Browser" />
   <project name="JellyKang/android_packages_apps_Browser" path="packages/apps/Browser" revision="kang" remote="github" />
+  <remove-project name="SlimRoms/packages_apps_Email" />
+  <project name="JellyKang/android_packages_apps_Email" path="packages/apps/Email" revision="kang" remote="github" />
   
   <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" remote="github" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang" remote="github" />
@@ -38,7 +40,6 @@
   <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-10.1" remote="github" />
   <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="cm-10.1" remote="github" />
   <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-10.1" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" revision="cm-10.1" remote="github" />
   <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="cm-10.1" remote="github" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" revision="cm-10.1" remote="github" />
   
