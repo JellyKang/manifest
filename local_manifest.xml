@@ -49,7 +49,7 @@
   <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="cm-10.2" remote="github" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" revision="cm-10.2" remote="github" />
   
-  <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="j3" remote="github" />
+  <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb3" remote="github" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb" remote="github" />
   <project path="packages/wallpapers/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" revision="jellybean" remote="github" />
   <project path="packages/wallpapers/Carbon" name="CarbonDev/android_packages_apps_Carbon_Wallpapers" revision="jb2" remote="github" />
