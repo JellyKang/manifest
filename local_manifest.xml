@@ -13,8 +13,8 @@
   <project name="JellyKang/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="cm-10.2" remote="github" />
   <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.2" remote="github" />
   <project path="hardware/qcom/audio-caf" name="JellyKang/android_hardware_qcom_audio-caf" revision="cm-10.2" remote="github" />
-  <project name="JellyKang/aandroid_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" revision="cm-10.2" remote="github" />
-  <project name="JellyKang/aandroid_hardware_qcom_gps" path="hardware/qcom/gps" revision="cm-10.2" remote="github" />
+  <project name="JellyKang/android_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" revision="cm-10.2" remote="github" />
+  <project name="JellyKang/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="cm-10.2" remote="github" />
 	
   <remove-project name="SlimRoms/packages_apps_Camera" />
   <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="kang-4.3" remote="github" />
