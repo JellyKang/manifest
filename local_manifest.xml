@@ -5,45 +5,43 @@
            fetch="../https://bitbucket.org/" />
 
   <remove-project name="SlimRoms/frameworks_base" />
-  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang" remote="github" />  
+  <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang-4.3" remote="github" />  
   
   <remove-project name="SlimRoms/hardware_libhardware" />
-  <project name="JellyKang/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.1" remote="github" />
-  <remove-project name="SlimRoms/hardware_qcom_media" />
-  <project name="JellyKang/android_hardware_qcom_media" path="hardware/qcom/media" revision="cm-10.1" remote="github" />
-  <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" remote="github" />
-  <project name="JellyKang/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/audio-caf" name="JellyKang/android_hardware_qcom_audio-caf" revision="cm-10.1" remote="github" />
+  <project name="JellyKang/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.2" remote="github" />
+  <project name="JellyKang/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="cm-10.2" remote="github" />
+  <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.2" remote="github" />
+  <project path="hardware/qcom/audio-caf" name="JellyKang/android_hardware_qcom_audio-caf" revision="cm-10.2" remote="github" />
   
   <remove-project name="SlimRoms/packages_apps_Camera" />
-  <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="kang" remote="github" />
+  <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Settings" />
-  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="kang" remote="github" />
+  <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Mms" />
-  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="kang" remote="github" />
+  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Phone" />
-  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang" remote="github" />
+  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Gallery2" />
-  <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="kang" remote="github" />
+  <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Browser" />
-  <project name="JellyKang/android_packages_apps_Browser" path="packages/apps/Browser" revision="kang" remote="github" />
+  <project name="JellyKang/android_packages_apps_Browser" path="packages/apps/Browser" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Email" />
-  <project name="JellyKang/android_packages_apps_Email" path="packages/apps/Email" revision="kang" remote="github" />
+  <project name="JellyKang/android_packages_apps_Email" path="packages/apps/Email" revision="kang-4.3" remote="github" />
   
-  <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" remote="github" />
-  <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang" remote="github" />
-  <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.1" remote="github" />
-  <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="kang" remote="github" />
+  <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.2" remote="github" />
+  <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang-4.3" remote="github" />
+  <project name="JellyKang/android_vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="cm-10.2" remote="github" />
+  <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="kang-4.3" remote="github" />
   
   <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="cm-10.1" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-10.1" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="cm-10.1" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-10.1" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="cm-10.1" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" revision="cm-10.1" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="cm-10.2" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-10.2" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="cm-10.2" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-10.2" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="cm-10.2" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" revision="cm-10.2" remote="github" />
   
-  <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb2" remote="github" />
+  <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="j3" remote="github" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb" remote="github" />
   <project path="packages/wallpapers/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" revision="jellybean" remote="github" />
   <project path="packages/wallpapers/Carbon" name="CarbonDev/android_packages_apps_Carbon_Wallpapers" revision="jb2" remote="github" />
@@ -52,11 +50,11 @@
     <copyfile src="James" dest="James" />
   </project>
   
-  <project path="local_manifest" name="JellyKang/manifest" revision="slim" remote="github">
+  <project path="local_manifest" name="JellyKang/manifest" revision="slim-4.3" remote="github">
     <copyfile src="local_manifest.xml" dest=".repo/local_manifests/manifest.xml" />
   </project>
   
-  <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0" remote="github" />
+  <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0_4.3" remote="github" />
 
 
 </manifest>
