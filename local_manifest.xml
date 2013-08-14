@@ -3,6 +3,11 @@
 
   <remote name="bit"
            fetch="../https://bitbucket.org/" />
+           
+  <remove-project name="SlimRoms/android_build" />
+  <project path="build" name="JellyKang/android_build" revision="jb4.3" remote="github" >
+  	<copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <remove-project name="SlimRoms/frameworks_base" />
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang-4.3" remote="github" />  
