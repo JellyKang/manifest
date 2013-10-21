@@ -4,6 +4,15 @@
   <remote name="bit"
            fetch="../https://bitbucket.org/" />
            
+  <remote name="emmanuel"
+           fetch="git://github.com/EmmanuelU/"/>
+           
+  <remote name="githubby"
+           fetch="git://github.com/"/>
+           
+  <remote name="DS"
+           fetch="git://github.com/JellybeanDS/"/>
+           
   <remove-project name="SlimRoms/android_build" />
   <project path="build" name="JellyKang/android_build" revision="jb4.3" remote="github" >
   	<copyfile src="core/root.mk" dest="Makefile" />
@@ -14,12 +23,10 @@
   
   <remove-project name="SlimRoms/hardware_libhardware" />
   <remove-project name="SlimRoms/hardware_libhardware_legacy" />
-  <project name="JellyKang/android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.2" remote="github" />
-  <project name="JellyKang/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="cm-10.2" remote="github" />
-  <project name="JellyKang/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.2" remote="github" />
-  <project path="hardware/qcom/audio-caf" name="JellyKang/android_hardware_qcom_audio-caf" revision="cm-10.2" remote="github" />
-  <project name="JellyKang/android_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" revision="cm-10.2" remote="github" />
-  <project name="JellyKang/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="cm-10.2" remote="github" />
+  <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="cm-10.2" remote="DS" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.2" remote="DS" />
+  <project name="android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.2" remote="DS" />
+  <project name="android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.2" remote="DS" />
 	
   <remove-project name="SlimRoms/packages_apps_Camera" />
   <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="kang-4.3" remote="github" />
@@ -36,9 +43,10 @@
   <remove-project name="SlimRoms/packages_apps_Email" />
   <project name="JellyKang/android_packages_apps_Email" path="packages/apps/Email" revision="kang-4.3" remote="github" />
   
-  <project name="JellyKang/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.2" remote="github" />
+  <project name="JellybeanDS/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.2" remote="github" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang-4.3" remote="github" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="kang-4.3" remote="github" />
+   <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0" remote="github" />
   <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="kang-4.3" remote="github" />
   
   <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" remote="github" />
@@ -61,8 +69,6 @@
   <project path="local_manifest" name="JellyKang/manifest" revision="slim-4.3" remote="github">
     <copyfile src="local_manifest.xml" dest=".repo/local_manifests/manifest.xml" />
   </project>
-  
-  <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0_4.3" remote="github" />
 
 
 </manifest>
