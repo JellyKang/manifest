@@ -54,7 +54,6 @@
   <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-10.2" remote="github" />
   <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="cm-10.2" remote="github" />
   <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-10.2" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="cm-10.2" remote="github" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" revision="cm-10.2" remote="github" />
   
   <project path="packages/wallpapers/Liquid" name="LiquidSmooth/android_liquid_wallpapers" revision="jb3" remote="github" />
