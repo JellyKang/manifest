@@ -43,6 +43,9 @@
   <remove-project name="SlimRoms/packages_apps_Email" />
   <project name="JellyKang/android_packages_apps_Email" path="packages/apps/Email" revision="kang-4.3" remote="github" />
   
+  <remove-project name="SlimRoms/packages_inputmethods_LatinIME" />
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="cm-10.2" remote="DS" />
+  
   <project name="JellybeanDS/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.2" remote="github" />
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang-4.3" remote="github" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="kang-4.3" remote="github" />
