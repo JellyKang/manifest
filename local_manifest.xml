@@ -13,6 +13,9 @@
   <remote name="DS"
            fetch="git://github.com/JellybeanDS/"/>
            
+  <remote name="CM"
+           fetch="git://github.com/CyanogenMod/"/>
+           
   <remove-project name="SlimRoms/android_build" />
   <project path="build" name="JellyKang/android_build" revision="jb4.3" remote="github" >
   	<copyfile src="core/root.mk" dest="Makefile" />
@@ -23,6 +26,8 @@
   
   <remove-project name="SlimRoms/hardware_libhardware" />
   <remove-project name="SlimRoms/hardware_libhardware_legacy" />
+  
+  <project name="android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" revision="cm-10.2" remote="CM" />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="cm-10.2" remote="DS" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" revision="cm-10.2" remote="DS" />
   <project name="android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.2" remote="DS" />
