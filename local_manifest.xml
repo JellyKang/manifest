@@ -15,11 +15,13 @@
            
   <remote name="CM"
            fetch="git://github.com/CyanogenMod/"/>
-           
+     
+  <!--      
   <remove-project name="SlimRoms/android_build" />
   <project path="build" name="JellyKang/android_build" revision="jb4.3" remote="github" >
   	<copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  -->
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" />
