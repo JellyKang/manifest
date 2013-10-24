@@ -45,16 +45,18 @@
   <project name="JellyKang/android_packages_apps_Camera" path="packages/apps/Camera" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Settings" />
   <project name="JellyKang/android_packages_apps_Settings" path="packages/apps/Settings" revision="kang-4.3" remote="github" />
-  <remove-project name="SlimRoms/packages_apps_Mms" />
-  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="kang-4.3" remote="github" />
-  <remove-project name="SlimRoms/packages_apps_Phone" />
-  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Gallery2" />
   <project name="JellyKang/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Browser" />
   <project name="JellyKang/android_packages_apps_Browser" path="packages/apps/Browser" revision="kang-4.3" remote="github" />
+  <!--
+  <remove-project name="SlimRoms/packages_apps_Mms" />
+  <project name="JellyKang/android_packages_apps_Mms" path="packages/apps/Mms" revision="kang-4.3" remote="github" />
+  <remove-project name="SlimRoms/packages_apps_Phone" />
+  <project name="JellyKang/android_packages_apps_Phone" path="packages/apps/Phone" revision="kang-4.3" remote="github" />
   <remove-project name="SlimRoms/packages_apps_Email" />
   <project name="JellyKang/android_packages_apps_Email" path="packages/apps/Email" revision="kang-4.3" remote="github" />
+  -->
   
   <remove-project name="SlimRoms/packages_inputmethods_LatinIME" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="cm-10.2" remote="DS" />
