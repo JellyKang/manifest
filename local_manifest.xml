@@ -65,7 +65,9 @@
   <project name="JellyKang/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="kang-4.3" remote="github" />
   <project name="JellyKang/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="kang-4.3" remote="github" />
    <project name="EmmanuelU/wild_kernel_htc_msm8660" path="kernel/htc/doubleshot" revision="android-msm-doubleshot-3.0" remote="github" />
-  <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="kang-4.3" remote="github" />
+  <project name="JellyKang/android_vendor_kang" path="vendor/kang" revision="kang-4.3" remote="github">
+    <copyfile src="James.conf" dest="James.conf" />
+  </project>
   
   <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" remote="github" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="cm-10.2" remote="github" />
