@@ -31,6 +31,8 @@
 
   <remove-project name="SlimRoms/frameworks_base" />
   <project name="JellyKang/android_frameworks_base" path="frameworks/base" revision="kang-4.3" remote="github" />  
+  <remove-project name="SlimRoms/frameworks_av" />
+  <project name="JellyKang/android_frameworks_av" path="frameworks/av" revision="kang-4.3" remote="github" />  
   
   <remove-project name="SlimRoms/hardware_libhardware" />
   <remove-project name="SlimRoms/hardware_libhardware_legacy" />
