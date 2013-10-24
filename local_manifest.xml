@@ -73,7 +73,7 @@
   
   <project name="ParanoidAndroid/HALO" path="packages/apps/Halo" revision="jellybean" remote="github" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="cm-10.2" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-10.2" remote="github" />
+  <!-- <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-10.2" remote="github" /> -->
   <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="cm-10.2" remote="github" />
   <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-10.2" remote="github" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" revision="cm-10.2" remote="github" />
